@@ -1,0 +1,45 @@
+<html>
+    <head>
+       <title>My Selfie App</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link href="style.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+</head>
+<body>
+    <div class="container">
+        <center>
+            <a href="" id="link"download="mySelfie.png" ></a>
+            <h1>Voice Selfie App 
+             <img id="logo_img" src="https://image.freepik.com/free-vector/cartoon-camera-photography-illustrator-vector-illustrations-your-work-logo-mascot-merchandise-t-shirt-stickers-label-designs-poster-greeting-cards-advertising-business-company-brands_228886-538.jpg" >
+            </h1>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPkxDb2van6aNFvM14AXiv3BgSK84B9fHVJ63cznrvW_YzrvoKCGzxJCAY12fdGoWSJMY&usqp=CAU">
+            <hr>
+            <h4 style="color:red;">Please press allow as soon as popup comes. After you give a voice command</h4>
+            
+            <div class="form-group">
+                <h3>Say "take my selfie"</h3>
+                <label>Your voice output : </label>
+    <textarea class="form_control" id="textbox"readonly="true"></textarea> 
+            </div>
+    <button class="btn btn-primary" onclick="start()">Click me to click you !</button>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi55TeiJV-4r5IpSLzyJebpRz0HY3E3sKT38CjUfTxgDkz8y-Qhux0_VH1H3ZV8ym3MCk&usqp=CAU">
+            <p>Press the Start button</p>
+    
+            <label>Your webcam : </label>
+    <div id ="camera"></div>
+            <br>
+    
+            <label>Your selfie Will Display Here: </label>
+    <div id ="result"></div>
+        </center>
+        </div>
+    
+        <script src="main.js"></script>
+    </body>
+    </html>
+    
+       
